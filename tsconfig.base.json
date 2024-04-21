@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@fabian-rodriguez-workspace/gif": [
+        "libs/inventory-app/frontend/ui/gif/src/index.ts"
+      ],
       "@inventory-app/landing": [
         "libs/inventory-app/frontend/ui/landing/src/index.ts"
       ]
