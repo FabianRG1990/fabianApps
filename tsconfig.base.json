@@ -18,6 +18,9 @@
       "@fabian-rodriguez-workspace/gif": [
         "libs/inventory-app/frontend/ui/gif/src/index.ts"
       ],
+      "@fabian-rodriguez-workspace/shared": [
+        "libs/inventory-app/frontend/ui/shared/src/index.ts"
+      ],
       "@inventory-app/landing": [
         "libs/inventory-app/frontend/ui/landing/src/index.ts"
       ]
