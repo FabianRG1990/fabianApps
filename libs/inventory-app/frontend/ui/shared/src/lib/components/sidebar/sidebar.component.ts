@@ -2,11 +2,13 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'fabian-rodriguez-workspace-shared',
   standalone: true,
-  imports: [CommonModule],
-  templateUrl: './shared.component.html',
-  styleUrl: './shared.component.css',
+  selector: 'fabian-rodriguez-workspace-sidebar',
+  templateUrl: './sidebar.component.html',
+  styleUrl: './sidebar.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [CommonModule],
 })
-export class SharedComponent {}
+export class SidebarComponent {}
+
+
