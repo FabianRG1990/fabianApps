@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SidebarComponent } from '@fabian-rodriguez-workspace/shared';
+import { COMPONENTS } from '@fabianrodriguez/shared/components/exports/export-components';
 
 @Component({
   selector: 'fabian-rodriguez-workspace-gif',
   standalone: true,
-  imports: [CommonModule, SidebarComponent],
+  imports: [CommonModule, COMPONENTS],
   templateUrl: './gif.component.html',
   styleUrl: './gif.component.css',
+
 })
 export class GifComponent {}
