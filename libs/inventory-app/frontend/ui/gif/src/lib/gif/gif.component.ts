@@ -7,7 +7,7 @@ import { COMPONENTS } from '@fabianrodriguez/shared/components/exports/export-co
   standalone: true,
   imports: [CommonModule, COMPONENTS],
   templateUrl: './gif.component.html',
-  styleUrl: './gif.component.css',
+  styleUrl: './gif.component.scss',
 
 })
 export class GifComponent {}
