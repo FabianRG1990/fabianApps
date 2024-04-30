@@ -3,10 +3,10 @@ import { RouterModule } from '@angular/router';
 
 @Component({
   standalone: true,
-  imports: [ RouterModule],
+  template: `<router-outlet/>`,
   selector: 'fabian-rodriguez-workspace-root',
-  templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
+  imports: [ RouterModule],
 })
 export class AppComponent {
   title = 'gif-app';
