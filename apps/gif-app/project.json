@@ -8,16 +8,26 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/gif-app",
         "index": "apps/gif-app/src/index.html",
         "browser": "apps/gif-app/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": [
+          "zone.js"
+        ],
         "tsConfig": "apps/gif-app/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": ["apps/gif-app/src/favicon.ico", "apps/gif-app/src/assets"],
-        "styles": ["apps/gif-app/src/styles.scss"],
+        "assets": [
+          "apps/gif-app/src/favicon.ico",
+          "apps/gif-app/src/assets"
+        ],
+        "styles": [
+          "@angular/material/prebuilt-themes/purple-green.css",
+          "apps/gif-app/src/styles.scss"
+        ],
         "scripts": [],
         "server": "apps/gif-app/src/main.server.ts",
         "prerender": true,
@@ -69,11 +79,15 @@
     },
     "lint": {
       "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"]
+      "outputs": [
+        "{options.outputFile}"
+      ]
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
         "jestConfig": "apps/gif-app/jest.config.ts"
       }
