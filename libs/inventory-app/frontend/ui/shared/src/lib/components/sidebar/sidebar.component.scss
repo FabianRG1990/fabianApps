@@ -1,0 +1,30 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(77, 77, 77, 0.568);
+  color: #ddd;
+  max-width: 15rem;
+  max-height: 100vh;
+}
+
+.flex-item {
+  align-items: center;
+  width: 14rem;
+  height: 96vh;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+hr {
+  border: solid;
+  width: 90%;
+  border-top: 1px solid #ddd;
+}
+
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
